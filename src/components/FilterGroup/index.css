@@ -1,0 +1,33 @@
+.employment-filters-card {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+  width: 15vw;
+  color: #d3e9ed;
+  margin-top: -10px;
+}
+.employment-filters-card li {
+  color: #d3e9ed;
+  font-weight: 400;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.employment-filters-card li label {
+  cursor: pointer;
+}
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .employment-filters-card {
+    width: 80vw;
+  }
+  .employment-filters-card li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .employment-filters-card {
+    width: 20vw;
+  }
+}
